@@ -1,0 +1,88 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+header{
+    background-color: #48c5ce;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+.title{
+    font-size: 26px;
+}
+section{
+    padding: 25px;
+    background-image: url('clovis de barros.jpg');
+    background-size: cover;
+    overflow: hidden;
+    
+}
+.formcontainer{
+    max-width: 230px;
+    background-color: #ffffffbb;
+    padding: 22px;
+    float: right;
+    
+}
+h3{
+    font-size: 17px;
+}
+.mb{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+input,select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    border: none;
+    margin-bottom: 8px;
+}
+input[type="submit"]{
+    color: white;
+    background-color: #48c5ce;
+    font-weight: bold;
+}
+select{
+      -moz-appearance: none;
+      -webkit-appearance: none;
+      appearance: none;
+      background-image: url('seta.png');
+      background-repeat: no-repeat;
+      background-size: 7px;
+      background-position: right;
+      background-position-x: 97%;
+}
+footer{
+    text-align: center;
+    padding: 40px;
+    background-color: rgb(140, 139, 139);
+    width: 920px;
+    height: 300px;
+    
+   
+}
+.textfooter{
+    text-align: center;
+   text-align: start;
+    text-align: left;
+    color: white;
+    display: inline-block;
+    max-width: 20%;
+    margin-left: 40px;
+}
+ .picture{ 
+     text-align: center;
+    max-width: 270px;
+
+ }
+
